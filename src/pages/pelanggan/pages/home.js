@@ -61,7 +61,7 @@ const Home = () => {
                                     </Col>                            
                                     <Col xs={7}>
                                         <div className='content-slide'>
-                                            <img className='center-cropped' style={{height:'60vh'}} src={`${BASE_IMAGE_URL}${movie.backdrop_path}`}/>
+                                            <img className='center-cropped' style={{height:'60vh'}} src={`${BASE_IMAGE_URL}${movie.backdrop_path}`} alt="Logo"/>
                                         </div>
                                     </Col>
                                 </Row>

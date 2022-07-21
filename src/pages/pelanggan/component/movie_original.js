@@ -38,7 +38,7 @@ const MovieOriginal = () => {
                             <SwiperSlide id={i} style={{backgroundColor:'#040a16'}}>
                                 <Link to={"/movie/"+movie.id}>
                                     <Card className='card-slider'>
-                                        <Card.Img src={`${BASE_IMAGE_URL}${movie.poster_path}`} className='center-cropped'/>
+                                        <Card.Img src={`${BASE_IMAGE_URL}${movie.poster_path}`} className='center-cropped' alt="Logo"/>
                                     </Card>
                                 </Link>
                             </SwiperSlide>

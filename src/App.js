@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import { Card, Button } from 'react-bootstrap';
 import { Route, Routes } from 'react-router-dom';
 import Login from './pages/login/login';
 import Registrasi from './pages/registrasi/registrasi';

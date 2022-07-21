@@ -44,7 +44,7 @@ const Movie = () => {
                         </Col>
                     </Row>
                 </div>
-                <img src={`${BASE_IMAGE_URL}${movie.backdrop_path}`} className="center-cropped"/>
+                <img src={`${BASE_IMAGE_URL}${movie.backdrop_path}`} className="center-cropped" alt="Logo"/>
             </div>
             <div className="p-5">
                 <h5 className='text-white'>Description</h5>

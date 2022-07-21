@@ -68,7 +68,7 @@ const Login = () => {
                           <p className='text-center'>atau dengan</p>
                         </Col>
                         <Col xs={12}>
-                          <Button type='button' onClick={signInGmail} className='btn-light w-100'><img src={LogoGoogle} style={{width:"20px"}}/> Google</Button>
+                          <Button type='button' onClick={signInGmail} className='btn-light w-100'><img src={LogoGoogle} style={{width:"20px"}} alt="Logo"/> Google</Button>
                         </Col>
                       </Row>
                       <Row className='pt-3'>

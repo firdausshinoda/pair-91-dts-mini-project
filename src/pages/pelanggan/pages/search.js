@@ -62,7 +62,7 @@ const Search = () => {
                             <Col xs={12} sm={6} md={3} className="mb-4">
                                 <Link to={"/movie/"+movie.id} className="text-decoration-none text-black">
                                     <Card className="card-search">
-                                        <Card.Img className='center-cropped' style={{height:'30vh'}} src={`${BASE_IMAGE_URL}${movie.backdrop_path}`}/>
+                                        <Card.Img className='center-cropped' style={{height:'30vh'}} src={`${BASE_IMAGE_URL}${movie.backdrop_path}`} alt="Logo"/>
                                         <Card.Body>
                                             <h6>{movie.title}</h6>
                                             <p>{movie.overview}</p>
