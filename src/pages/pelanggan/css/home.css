@@ -1,0 +1,13 @@
+.content-slide {
+    position: relative;
+}
+.content-slide::after{
+    width:100%;
+    height:100%;
+    content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    background: linear-gradient(to right, #040a16 0%,rgba(255,255,255,0) 69%);
+}

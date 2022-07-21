@@ -1,0 +1,14 @@
+* {
+    font-family: 'Poppins';
+}
+.sampul-poster {
+    width: 100vw;
+    height: 100vh;
+}
+.sampul-poster > div {
+    position: absolute;
+    width: 35vw;
+    top: 40vh;
+    left: 5vw;
+    color: white;
+}
